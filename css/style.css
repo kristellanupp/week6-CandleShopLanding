@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Crimson Text", serif;
+  text-align: center;
+ }
+
+.intro-image{
+    background-attachment: fixed;
+    background-image: url(/img/image1.jpeg);
+    background-size: cover;
+    background-position: bottom;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro-image__text a{
+    background-color: #c6a15c5f;
+    border: 2px solid #c6a15c;
+    color: #2b2722;
+    display: inline-block;
+    font-size: 3rem;
+    padding: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 1s ease-in-out;
+}
+
+.intro-image__text a:hover{
+    transform: scale(1.2);
+}
+
+.intro-text{
+    background-color: #c09969;
+    color: #612e0d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    padding: 0 10rem;
+    clip-path: polygon(50% 8%, 100% 0, 100% 60%, 100% 100%, 0 100%, 0% 60%, 0 0);
+    margin-top: -6rem;
+}
+
+.intro-text__textbox h3{
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.packaging-image{
+    background-attachment: fixed;
+    background-image: url(/img/image3.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.packaging-image__text a{
+    background-color: #e7c08275;
+    border: 2px solid #e0b878;
+    color: #2b2722;
+    display: inline-block;
+    font-size: 3rem;
+    padding: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 1s ease-in-out;
+}
+
+.packaging-image__text a:hover{
+    transform: scale(1.2);
+}
+
+.packaging-text{
+    background-color: #d4a65c69;
+    color: #5e3c31;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    padding: 0 10rem;
+}
+
+.packaging_text__textbox h3{
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.tutorials-image{
+    background-attachment: fixed;
+    background-image: url(/img/image2.jpeg);
+    background-size: cover;
+    background-position: top;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tutorials-image__text a{
+    background-color: #cd9c6b7e;
+    border: 2px solid #cd9c6b;
+    color: #200e02;
+    display: inline-block;
+    font-size: 3rem;
+    padding: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 1s ease-in-out;
+}
+
+.tutorials-image__text a:hover{
+    transform: scale(1.2);
+}
+
+.tutorials-text{
+    background-color: #bb8e68;
+    color: #472d17;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    padding: 0 10rem;
+}
+
+.tutorials-text__textbox h3{
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.footer {
+    background-color: #c09969;
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    margin-top: -5rem;
+    padding: 6rem;
+    text-align: center;
+}
+
+.footer ul li {
+    display: inline-block;
+    margin: 1rem;
+}
+
+.footer ul li a {
+    color: rgb(247, 236, 222);
+    text-decoration: none;
+}
+
+.footer ul li a:hover {
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    transform: scale(1.1);
+}
