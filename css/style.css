@@ -13,7 +13,7 @@ body {
 
 .intro-image{
     background-attachment: fixed;
-    background-image: url(./img/image1.jpeg);
+    background-image: url(../img/image1.jpeg);
     background-size: cover;
     background-position: bottom;
     height: 600px;
@@ -58,7 +58,7 @@ body {
 
 .packaging-image{
     background-attachment: fixed;
-    background-image: url(./img/image3.jpeg);
+    background-image: url(../img/image3.jpeg);
     background-size: cover;
     background-position: center;
     height: 400px;
@@ -101,7 +101,7 @@ body {
 
 .tutorials-image{
     background-attachment: fixed;
-    background-image: url(./img/image2.jpeg);
+    background-image: url(../img/image2.jpeg);
     background-size: cover;
     background-position: top;
     height: 400px;
